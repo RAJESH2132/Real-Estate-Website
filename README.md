@@ -77,6 +77,6 @@ To configure the form:
 ---
 
 ## Live Preview
-Check out the live preview of the project [here](https://your-preview-link.com).
+Check out the live preview of the project [here](https://real-estate-site-demo.netlify.app/).
 
 ---
