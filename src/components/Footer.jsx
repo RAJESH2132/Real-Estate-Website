@@ -39,7 +39,7 @@ const Footer = () => {
           <p className="text-gray-400 mb-4 max-w-80">
             The latest news, articles, and resources, sent to your inbox weekly
           </p>
-          <div className="flex gap-2">
+          <div className="flex flex-col md:flex-row gap-4">
             <input
               type="email"
               placeholder="Enter your email"
