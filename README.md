@@ -1,5 +1,10 @@
 # Real Estate Platform
 
+## Live Preview
+Check out the live preview of the project [here](https://real-estate-site-demo.netlify.app/).
+
+---
+
 ## Project Description
 The **Real Estate Platform** is a modern, responsive web application designed to showcase real estate listings. It offers an intuitive user experience with features like property browsing, detailed property views, and a fully functional contact form powered by **Web3 forms**, allowing users to send inquiries directly.
 
@@ -76,7 +81,4 @@ To configure the form:
 
 ---
 
-## Live Preview
-Check out the live preview of the project [here](https://real-estate-site-demo.netlify.app/).
 
----
