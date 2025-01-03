@@ -37,41 +37,41 @@ const Contact = () => {
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      className="text-center p-6 py-20 lg:px-32 w-full overflow-hidden"
+      className="w-full p-6 py-20 overflow-hidden text-center lg:px-32"
       id="Contact"
     >
-      <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
+      <h1 className="mb-2 text-2xl font-bold text-center sm:text-4xl">
         Contact
-        <span className="underline underline-offset-4 decoration-1 under font-light">
+        <span className="font-light underline underline-offset-4 decoration-1 under">
           With Us
         </span>
       </h1>
-      <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
+      <p className="mx-auto mb-12 text-center text-gray-500 max-w-80">
         Ready to Make a Move? Let&apos;s Build Your Future Together
       </p>
       <form
         onSubmit={onSubmit}
-        className="max-w-2xl mx-auto text-gray-600 pt-8"
+        className="max-w-2xl pt-8 mx-auto text-gray-600"
       >
         <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2 text-left">
+          <div className="w-full text-left md:w-1/2">
             Your Name
             <input
               type="text"
               name="Name"
               placeholder="Your Name"
               required
-              className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
+              className="w-full px-4 py-3 mt-2 border border-gray-300 rounded"
             />
           </div>
-          <div className="w-full md:w-1/2 text-left md:pl-4">
+          <div className="w-full text-left md:w-1/2 md:pl-4">
             Your Email
             <input
               type="email"
               name="Email"
               placeholder="Your Email"
               required
-              className="w-full border border-gray-300 rounded py-3 px-4 mt-2"
+              className="w-full px-4 py-3 mt-2 border border-gray-300 rounded"
             />
           </div>
         </div>
@@ -81,10 +81,10 @@ const Contact = () => {
             name="Message"
             placeholder="Message"
             required
-            className="w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none"
+            className="w-full h-48 px-4 py-3 mt-2 border border-gray-300 rounded resize-none"
           ></textarea>
         </div>
-        <button className="bg-blue-600 text-white py-2 px-12 mb-10 rounded">
+        <button className="px-12 py-2 mb-10 text-white bg-blue-600 rounded">
           {result ? result : "Send Message"}
         </button>
       </form>
